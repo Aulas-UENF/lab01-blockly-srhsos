@@ -46,13 +46,24 @@ Olhando para os blocos que você usou para resolver o jogo no nível 10, imagine
 
 ## 3. Estratégia Utilizada
 *Explique com suas palavras como você resolveu o problema. Qual foi a lógica?*
-> Escreva aqui... Exemplo: Percebi que o padrão se repetia 3 vezes, então criei um bloco de função para desenhar a ponta da estrela e usei um loop...
+> Primeiro, eu usei o looping X5 com movimentação angular para direita à 144°, no tamanho 50 para ter uma forma de estrela; depois adicionei esse looping dentro de outro X3 com especificações de movimentação para que a cada estrela desenhada, a proxima fosse desenhada em outra rotação. "Tirei o lápis da tela" para ele não "rabiscar"
+onde eu não queria e segui para a esquerda; "coloquei o lapis de volta" e vim com outro looping, dessa vez X360, que tinha especificações para desenhar muitos traços vindo do centro do círculo(1°) para a extremidade(90°) de acordo com o tamanho(50) dele. Esse processo foi repetido no segundo círculo, feito para simular a fase da lua, que apenas foi posicionado mais a direita e acima.
+
+
 
 ## 4. Desafio:
-**A)** Escreva aqui...
+**A)** O looping X6 com ângulo a 60° graus.
   
-**B)** Escreva aqui...
+**B)** Usando o ângulo reto(90°).
   
-**C)** Escreva aqui...
+**C)** Paraa questão A, levando em consideração que o hexágono, que tem 6 lados, ia fazer a figura do círculo, e o círculo tem 360° graus, so fiz a divisão.
+Ex:. 360|6_
+      00|60
+---    0
+       
+Para questão B, eu usei o raciocínio de que dentro de um circulo existe as vértices dele que formam um quadrado, e posicionados nessas vértices, os 4 hexágonos ficariam igualmente distribuidos, eu calculei outra divisão.
+Ex:.  360|4_
+       00|90
+---     0
 
----
+@Annabell
